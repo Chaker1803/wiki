@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Accueil</display-name>
+    <servlet-name>Accueil</servlet-name>
+    <servlet-class>com.perou.wiki.controleurs.Accueil</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Accueil</servlet-name>
+    <url-pattern>/wilcommen</url-pattern>
+  </servlet-mapping>
 </web-app>
